@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pet-love
+  data:
+    mongodb:
+      uri: mongodb+srv://<user>:<password>@duydang-cluster.et0iqka.mongodb.net/pet-love-crud?retryWrites=true&w=majority
+
+server:
+  error:
+    include-message: always
+
